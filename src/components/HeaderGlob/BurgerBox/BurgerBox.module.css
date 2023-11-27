@@ -44,5 +44,7 @@
 @media screen and (max-width: 425px) {
     .burgerBox {
         width: 50%;
+        display: flex;
+        justify-content: flex-start;
     }
 }
