@@ -1,0 +1,42 @@
+.navBox {
+    width: 65%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navBox a {
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    margin-right: 10px;
+    transition: 0.2s;
+}
+
+
+.navBox a:active {
+    transform: scale(0.9);
+}
+
+.navBox a:hover {
+    background-color: #ce2020a0;
+}
+
+.active {
+    background-color: red;
+}
+
+@media screen and (max-width: 1024px) {
+    .navBox {
+        display: none;
+    }
+}

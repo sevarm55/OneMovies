@@ -1,0 +1,48 @@
+.burgerBox {
+    width: 10%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burgerSpan {
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.burgerSpan:hover {
+    background-color: #cccccc20;
+}
+
+.line {
+    width: 20px;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.line1 {
+    transform: translateY(-6px);
+}
+.line3 {
+    transform: translateY(6px);
+}
+
+@media screen and (min-width: 1025px) {
+    .burgerBox {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .burgerBox {
+        width: 50%;
+    }
+}
